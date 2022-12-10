@@ -11,8 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         saySomething()
+        // Double Shift to Search Everywhere
         // Command Backspace to delete
         // Command D to duplicate
+        // Fn Shift F6 to rename a variable
+        // Highlight Text - Go to Menu Item [Refactor] [Refactor This] - [Function] to turn
+        // lines into a function
+
         // clipboard data
         // saySomething()
         // clipboard data
