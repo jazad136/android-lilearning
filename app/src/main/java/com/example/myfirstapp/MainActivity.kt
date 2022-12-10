@@ -2,6 +2,7 @@ package com.example.myfirstapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.myfirstapp.util.MyFirstClass
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +13,10 @@ class MainActivity : AppCompatActivity() {
         saySomething()
         // Command Backspace to delete
         // Command D to duplicate
+        // clipboard data
+        // saySomething()
+        // clipboard data
+        // setContentView(R.layout.activity_main)
 
     }
 
