@@ -33,6 +33,16 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    flavorDimensions 'app_market'
+    productFlavors {
+        google {
+            dimension 'app_market'
+        }
+        amazon {
+            dimension 'app_market'
+            applicationIdSuffix '.amazon'
+        }
+    }
 }
 
 dependencies {
